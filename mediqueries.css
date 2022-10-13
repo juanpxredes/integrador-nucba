@@ -1,0 +1,99 @@
+@media (max-width: 992px)  {
+    .navbar{
+        gap: 10px;
+    }
+
+    .navbar-list{
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: #fff;
+        border: 2px solid #000000;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+
+    }
+
+    .navbar-list a{
+        font-size: 18px;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu-icon{
+        height: 34px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+
+    }
+
+    .hero-info{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h1{
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p{
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    #benefits h2{
+        text-align: center;
+    }
+
+    .benefits-container{
+        max-width: 80%;
+    }
+   
+}
+
+@media (max-width: 576px){
+    .hero-info{
+        width: 60%;
+        max-width: unset;
+    }
+
+    .benefits-container{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .products-container{
+        width: 80%;
+    }
+
+    #product{
+        width: 100%;
+    }
+
+    .footer-links{
+        flex-direction: column;
+        text-align: center;
+    }
+}

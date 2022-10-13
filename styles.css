@@ -350,3 +350,8 @@ footer p{
     justify-content: center;
     gap: 15px;
 }
+
+#menu-toggle,
+.menu-label{
+    display: none;
+}
